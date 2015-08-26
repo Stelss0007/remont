@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26.08.2015, 12:04:55
+    Author     : Ruslan
+*/
+
+.jumbotron {
+    padding-bottom: 0px;
+    background-color: #747474;
+}
+
+.navbar-inverse,
+.list-group-item.active, 
+.list-group-item.active:hover, 
+.list-group-item.active:focus
+{
+    background-color: #DD852C;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:hover, 
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-form button[type='submit']
+{
+    background-color: #B77029;
+}
+
+.navbar-form button[type='submit'] {
+    border: black;
+}
+
+.navbar-form input[type='text'],
+.navbar-form input[type='password']{
+    width: 150px;
+}
+
+.navbar-form .main-search:focus {
+    width: 250px;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    opacity: 0.5;
+}
+
+.logo {
+    margin: 0px;
+    padding: 5px 15px;
+        
+}
+
+.carousel-caption {
+    right: auto;
+    bottom: auto;
+    top: 20px;
+    left: 180px;
+}
+
+.carousel-caption h4 {
+    text-align: left;
+    font-size: 32px;
+}
+
+.carousel-caption .slider-text {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.navbar-fixed-top {
+    border-bottom-width: 3px;
+}
