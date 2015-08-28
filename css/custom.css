@@ -76,3 +76,63 @@ and open the template in the editor.
 .navbar-fixed-top {
     border-bottom-width: 3px;
 }
+
+.block {
+    margin-top: 10px;
+    margin-bottom: 20px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.block:last-of-type {
+    border: none;
+}
+
+.blocks-right .block-head,
+.blocks-left .block-head
+{
+    background-image: url('/img/block-head.png');
+    background-repeat: no-repeat;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 1px 1px 1px #888;
+    font-size: 16px;
+}
+
+.blocks-center .block-head
+{
+    padding: 10px 10px 5px;
+    color: #000;
+    text-shadow: 1px 1px 1px #888;
+    font-size: 20px;
+    border-bottom: 4px solid #B77029;
+    margin-bottom: 15px;
+}
+
+.block-content {
+    margin: 5px 5px 20px;
+}
+
+.block-content .slide img {
+    width: 250px;
+    height: 190px;
+}
+
+.carousel-indicators {
+    bottom: 0px;
+}
+
+.menu {
+    padding: 0px;
+}
+.menu li {
+    list-style: none;
+    border-bottom: 1px dotted #ccc;
+    padding: 6px;
+}
+
+.menu li a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
